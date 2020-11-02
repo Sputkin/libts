@@ -5,11 +5,11 @@ import datetime
 class TSCns():
 
 	ADPU_SELECT_FILE = [0x00, 0xA4]                  # APDU SELECT FILE command iso7816-4
-	ADPU_READ_BINARY = [0x00, 0xB0, 0x00, 0x00,0x00] # APDU SELECT FILE command iso7816-4
+	ADPU_READ_BINARY = [0x00, 0xB0, 0x00, 0x00,0x00] # APDU READ_BINARY command iso7816-4
 
-	#ADPU_P1_SELECT_BY_IDENTIFIER = [0x00]            # select EF, DF or MF by file identifier 
+	#ADPU_P1_SELECT_BY_IDENTIFIER = [0x00]           # select EF, DF or MF by file identifier 
 	ADPU_P1_SELECT_BY_ABSOLUTE_PATH = [0x08]         # select file by absolute path from MF # ADPU
-	#ADPU_P1_SELECT_BY_RELATIVE_PATH = [0x09]         # select file by relative path from current DF
+	#ADPU_P1_SELECT_BY_RELATIVE_PATH = [0x09]        # select file by relative path from current DF
 
 	def __init__(self,connection):
 		self.connection = connection
