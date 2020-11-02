@@ -100,6 +100,10 @@ class TSCns():
 		#print("Doctor: {}".format(toASCIIString(doctor))) # toASCIIString
 		return toASCIIString(doctor)
 
+	def NETLINKFormatGetPostalCode(self):
+		postalCode = self.__NETLINKGetFieldByGroups("A4",["31","A1"],"81")
+		return toASCIIString(postalCode)
+
 	def __NETLINKGetFieldByGroup(self,group,field_tag):
 		toHex = toHexString(self.dati).split(" ")
 		offset = toHex.index(group)

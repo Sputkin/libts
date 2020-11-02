@@ -15,6 +15,7 @@ Modulo Python per la lettura della Carta Nazionale dei Servizi (TS-CNS)
 * NETLINKFormatGetTsEndValidity
 * NETLINKFormatGetAddress - Indirizzo di residenza
 * NETLINKFormatGetDoctor - Medico (se assegnato)
+* NETLINKFormatGetPostalCode
 
 ## Utilizzo
 
