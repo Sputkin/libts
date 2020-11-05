@@ -3,7 +3,7 @@ Modulo Python per la lettura della Carta Nazionale dei Servizi (TS-CNS)
  
 ##  Dipendenze
 
-[pyscard](https://pypi.org/project/pyscard/)
+[pyscard](https://pyscard.sourceforge.io/)
 
 ## Metodi esposti
 
